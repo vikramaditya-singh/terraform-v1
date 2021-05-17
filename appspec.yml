@@ -5,3 +5,11 @@ files:
     destination: /home/ec2-user/spot_fleet
   - source: scripts/script1.sh
     destination: /home/ec2-user/
+
+permissions:
+  - object: /home/ec2-user/
+    pattern: "*.sh"
+    owner: ec2-user
+    mode: 644
+    type:
+      - file
