@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+files:
+  - source: /spot_fleet
+    destination: /home/ec2-user/
+  - source: scripts/script1.sh
+    destination: /home/ec2-user/
