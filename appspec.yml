@@ -10,6 +10,7 @@ permissions:
   - object: /home/ec2-user/
     pattern: "*.sh"
     owner: ec2-user
-    mode: 644
+    group: ec2-user
+    mode: 744
     type:
       - file
