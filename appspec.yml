@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /spot_fleet
     destination: /home/ec2-user/spot_fleet
-  - source: scripts/script1.sh
-    destination: /home/ec2-user/
+  # - source: scripts/script1.sh
+  #   destination: /home/ec2-user/
   - source: scripts
     destination: /home/ec2-user/
 
